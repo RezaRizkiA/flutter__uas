@@ -100,6 +100,7 @@ class _HomeViewState extends State<HomeView> {
     return SizedBox(
       width: double.infinity,
       height: double.infinity,
+      child: SingleChildScrollView(
       child: Column(
         children: [
           /// Top Section Of Home page : Text, Progrss Indicator
@@ -216,6 +217,7 @@ class _HomeViewState extends State<HomeView> {
           )
         ],
       ),
+      )
     );
   }
 }
